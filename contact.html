@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<meta name="author" content="Wojciech Kolasa">
+    <title>contact</title>
+    <link type="text/css" rel="stylesheet" href="css/style.css">
+		<link rel="icon" type="img/x-icon" href="img/favicon.ico">
+	</head>
+	<body>
+		<header>
+			<nav class="navigation_bar">
+
+				<img title="logo" src="img/f1logo.png" alt="logo_index">
+				<h1>F1 innovations</h1>
+				<h2>What's new in F1?</h2>
+
+				<nav class="menu">
+						<label for="toggle" class="menu-toggle">&#9776;</label>
+					<input type="checkbox" id="toggle" class="menu-toggle"/>
+					<ul class="menu-items">
+						<li class="menu-item"><a href="#" class="menu-link">Home</a></li>
+						<li class="menu-item"><a href="#" class="menu-link">About</a></li>
+						<li class="menu-item"><a href="#" class="menu-link">Contact</a></li>
+					</ul>
+				</nav>
+
+				<ul class="navigation_links">
+					<li>
+						<a href="index.html">Home Page</a>
+					</li>
+					<li>
+						<a href="product.html">Product</a>
+					</li>
+					<li>
+						<a href="pricing.html">Pricing</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+
+		<form class="contactpage" action="contactform.php" method="post">
+			<h3>Any questions?</h3>
+			<fieldset id="fieldset1">
+				<legend>Details</legend>
+
+				<input class="placeholder" type="text" placeholder="Name" name="name">
+				<input class="placeholder" type="text" placeholder="Last Name" name="lastName">
+				<input class="placeholder" type="email" value="email" placeholder="E-Mail" name="email">
+
+				<input type="radio" name="Male">
+				<label>Male</label>
+
+				<input type="radio" name="Female">
+				<label>Female</label>
+
+				<textarea name="message" placeholder="Write your question..."></textarea>
+
+				<button type="Submit" value="Submit" name="Submit_button">Send!</button>
+			</fieldset>
+		</form>
+
+		<aside class="asideContactPage">
+			<a href=" https://www.inholland.nl/">
+				<ol>
+	        <li>Halo</li>
+	        <li>Head and Neck Support system (HANS)</li>
+	        <li>Kinetic Energy Recovery System (KERS)</li>
+	      </ol>
+			</a>
+		</aside>
+
+		<footer class="cookiesBox">
+			<p>&copy;2022 Wojciech</p>
+			<p>Cookies Statement</p>
+		</footer>
+	</body>
+</html>
